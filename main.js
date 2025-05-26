@@ -1,12 +1,3 @@
-/*
-┏━━━━━━━━━━━━━━━┓  
-┃ kyaa BASE - WHATSAPP     
-┣━━━━━━━━━━━━━━━┛
-┃♕ Creator: Alyssexd         
-┃♕ AI Helper: ChatGPT             
-┃♔ Version: 1.0.0                   
-┗━━━━━━━━━━━━━━━┛
-*/
 //========kyaaZ========
 require('./system/config');
 const { default: makeWASocket, useMultiFileAuthState, DisconnectReason, makeInMemoryStore, jidDecode, proto } = require("@whiskeysockets/baileys");

@@ -1,8 +1,7 @@
 # Alysse-Crasher
 
 # 1. Clone the repository
-git clone https://github.com/FeliciaXxxTop/Alysse-Crasher.git
-cd Alysse-Crasher
+git clone https://github.com/FeliciaXxxTop/Alysse-Crasher.git && cd Alysse-Crasher
 
 # 2. Install dependencies
 yarn install

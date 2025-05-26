@@ -566,7 +566,7 @@ let itsmenu = `
 ➤ _Powered by Alysse-Project_
 `;
 await kyaa.sendMessage(m.chat, {
-image: { url: "https://files.catbox.moe/n7yp3q.jpg" },
+image: { url: "https://files.catbox.moe/rbofhf.jpg" },
 caption: itsmenu
 }, { quoted: m });
 }

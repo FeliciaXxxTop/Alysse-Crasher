@@ -538,30 +538,35 @@ case "menu": case "kyaa": {
 await kyaa.sendMessage(m.chat, {react: {text: '⏳', key: m.key}})
 await kyaa.sendMessage(m.chat, {react: {text: '✅', key: m.key}})
 let itsmenu = `
-- *\`[ Alysse-Project]\`*
-☐ ʜᴀɪ, ${m.pushName}
-☐ sᴀʏᴀ, ${global.namabot} 👋
-Bít.ly/AlysseProject
+╭───╼『 *Alysse Project* 』
+│ ⤷ Hi, ${m.pushName}
+│ ⤷ I Am *${global.namabot}*, Powered By Alysse Team
+│ ⤷ bít.ly/AlysseProject
+╰─────────────────────╼☆
 
-- *\`[ ᴏᴡɴᴇʀ-ᴍᴇɴᴜ ]\`*
-☐ ${prefix}sᴇʟғ
-☐ ${prefix}ᴘᴜʙʟɪᴄ
-☐ ${prefix}ᴀᴅᴅᴘʀᴇᴍ
-☐ ${prefix}ᴅᴇʟᴘʀᴇᴍ
+╭───╼『 *Owner Menu* 』
+│ ⤷ ${prefix}self         – ᴍᴏᴅᴇ: ꜱᴇʟғ
+│ ⤷ ${prefix}public       – ᴍᴏᴅᴇ: ᴘᴜʙʟɪᴄ
+│ ⤷ ${prefix}addprem      – ᴀᴋᴛɪꜰᴋᴀɴ ᴘʀᴇᴍɪᴜᴍ
+│ ⤷ ${prefix}delprem      – ʜᴀᴘᴜꜱ ᴘʀᴇᴍɪᴜᴍ
+╰─────────────────────╼☆
 
-- *\`[ ʙᴜɢ-ᴍᴇɴᴜ ]\`*
-${prefix}ɪɴᴠɪs-ᴅᴇʟᴀʏ
-${prefix}iɴᴠɪs-sʟᴏᴡ
-${prefix}ɪɴᴠɪs-ʙᴜʟʟᴅᴏᴢᴇʀ
-${prefix}ɪɴᴠɪs-ʜᴀʀᴅ
+╭───╼『 *Bug Menu* 』
+│ ⤷ ${prefix}invis-delay
+│ ⤷ ${prefix}invis-slow
+│ ⤷ ${prefix}invis-bulldozer
+│ ⤷ ${prefix}invis-hard
+╰─────────────────────╼☆
 
-- *\`[ sᴘᴀᴍ-ᴍᴇɴᴜ]\`*
-${prefix}spampairing
-${prefix}spamreactch
+╭───╼『 *Spam Menu* 』
+│ ⤷ ${prefix}spampairing
+│ ⤷ ${prefix}spamreactch
+╰─────────────────────╼☆
 
-> _Alysse-Project_`;
+➤ _Powered by Alysse-Project_
+`;
 await kyaa.sendMessage(m.chat, {
-image: { url: "https://files.catbox.moe/k457ph.jpg" },
+image: { url: "https://files.catbox.moe/n7yp3q.jpg" },
 caption: itsmenu
 }, { quoted: m });
 }

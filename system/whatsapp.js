@@ -1,12 +1,3 @@
-/*
-┏━━━━━━━━━━━━━━━┓
-┃ kyaaZ BASE - WHATSAPP 
-┣━━━━━━━━━━━━━━━┛
-┃♕ Creator: kyaazZhiro 
-┃♕ AI Helper: ChatGPT 
-┃♔ Version: 1.0.0 
-┗━━━━━━━━━━━━━━━┛
-*/
 //========kyaaZ========
 require('./config')
 const { 

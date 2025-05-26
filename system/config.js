@@ -1,16 +1,7 @@
-/*
-┏━━━━━━━━━━━━━━━┓  
-┃ RIKZZ BASE - WHATSAPP     
-┣━━━━━━━━━━━━━━━┛
-┃♕ Creator: ryzzxd           
-┃♕ AI Helper: ChatGPT             
-┃♔ Version: 1.0.0                   
-┗━━━━━━━━━━━━━━━┛
-*/
 //========RIKZZ========
 global.prefix = [".", "!", ".", ",", "🐤", "🗿"]; 
 global.publik = true
-global.owner = ["6285282562644"] 
+global.owner = ["yourphone"] 
 global.namabot = 'Alysse-Project'
 //======================
 global.mess = { 
